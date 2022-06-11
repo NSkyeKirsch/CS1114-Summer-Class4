@@ -98,5 +98,14 @@ print(new_list)
 new_list = a_list[-1:0:-2]
 print(new_list)
 
+print()
+
+# List to Strings
+words = ['These', 'are', 'the', 'words', 'that', 'I', 'might', 'speak.']
+
+sentence = ' '.join(words)
+
+print(sentence)
+
 
 
